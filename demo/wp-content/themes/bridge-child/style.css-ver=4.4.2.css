@@ -1,0 +1,1512 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css")/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge/style.css*/;
+
+
+/*Fontface*/
+
+@font-face {
+    font-family: 'dinbold';
+    src: url('fonts/din-bold-webfont.eot')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-bold-webfont.eot*/;
+    src: url('fonts/din-bold-webfont.eot-#iefix')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-bold-webfont.eot?#iefix*/ format('embedded-opentype'),
+         url('fonts/din-bold-webfont.woff2')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-bold-webfont.woff2*/ format('woff2'),
+         url('fonts/din-bold-webfont.woff')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-bold-webfont.woff*/ format('woff'),
+         url('fonts/din-bold-webfont.ttf')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-bold-webfont.ttf*/ format('truetype'),
+         url('fonts/din-bold-webfont.svg#dinbold')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-bold-webfont.svg#dinbold*/ format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'din_lightregular';
+    src: url('fonts/din-light-webfont.eot')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-light-webfont.eot*/;
+    src: url('fonts/din-light-webfont.eot-#iefix')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-light-webfont.eot?#iefix*/ format('embedded-opentype'),
+         url('fonts/din-light-webfont.woff2')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-light-webfont.woff2*/ format('woff2'),
+         url('fonts/din-light-webfont.woff')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-light-webfont.woff*/ format('woff'),
+         url('fonts/din-light-webfont.ttf')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-light-webfont.ttf*/ format('truetype'),
+         url('fonts/din-light-webfont.svg#din_lightregular')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-light-webfont.svg#din_lightregular*/ format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dinmedium';
+    src: url('fonts/din-medium-webfont.eot')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-medium-webfont.eot*/;
+    src: url('fonts/din-medium-webfont.eot-#iefix')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-medium-webfont.eot?#iefix*/ format('embedded-opentype'),
+         url('fonts/din-medium-webfont.woff2')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-medium-webfont.woff2*/ format('woff2'),
+         url('fonts/din-medium-webfont.woff')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-medium-webfont.woff*/ format('woff'),
+         url('fonts/din-medium-webfont.ttf')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-medium-webfont.ttf*/ format('truetype'),
+         url('fonts/din-medium-webfont.svg#dinmedium')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-medium-webfont.svg#dinmedium*/ format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dinregular';
+    src: url('fonts/din-regular-webfont.eot')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-regular-webfont.eot*/;
+    src: url('fonts/din-regular-webfont.eot-#iefix')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-regular-webfont.eot?#iefix*/ format('embedded-opentype'),
+         url('fonts/din-regular-webfont.woff2')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-regular-webfont.woff2*/ format('woff2'),
+         url('fonts/din-regular-webfont.woff')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-regular-webfont.woff*/ format('woff'),
+         url('fonts/din-regular-webfont.ttf')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-regular-webfont.ttf*/ format('truetype'),
+         url('fonts/din-regular-webfont.svg#dinregular')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/din-regular-webfont.svg#dinregular*/ format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'libre_baskervillebold';
+    src: url('fonts/librebaskerville-bold-webfont.eot')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-bold-webfont.eot*/;
+    src: url('fonts/librebaskerville-bold-webfont.eot-#iefix')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-bold-webfont.eot?#iefix*/ format('embedded-opentype'),
+         url('fonts/librebaskerville-bold-webfont.woff2')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-bold-webfont.woff2*/ format('woff2'),
+         url('fonts/librebaskerville-bold-webfont.woff')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-bold-webfont.woff*/ format('woff'),
+         url('fonts/librebaskerville-bold-webfont.ttf')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-bold-webfont.ttf*/ format('truetype'),
+         url('fonts/librebaskerville-bold-webfont.svg#libre_baskervillebold')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-bold-webfont.svg#libre_baskervillebold*/ format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'libre_baskervilleitalic';
+    src: url('fonts/librebaskerville-italic-webfont.eot')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-italic-webfont.eot*/;
+    src: url('fonts/librebaskerville-italic-webfont.eot-#iefix')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-italic-webfont.eot?#iefix*/ format('embedded-opentype'),
+         url('fonts/librebaskerville-italic-webfont.woff2')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-italic-webfont.woff2*/ format('woff2'),
+         url('fonts/librebaskerville-italic-webfont.woff')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-italic-webfont.woff*/ format('woff'),
+         url('fonts/librebaskerville-italic-webfont.ttf')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-italic-webfont.ttf*/ format('truetype'),
+         url('fonts/librebaskerville-italic-webfont.svg#libre_baskervilleitalic')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-italic-webfont.svg#libre_baskervilleitalic*/ format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'libre_baskervilleregular';
+    src: url('fonts/librebaskerville-regular-webfont.eot')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-regular-webfont.eot*/;
+    src: url('fonts/librebaskerville-regular-webfont.eot-#iefix')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-regular-webfont.eot?#iefix*/ format('embedded-opentype'),
+         url('fonts/librebaskerville-regular-webfont.woff2')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-regular-webfont.woff2*/ format('woff2'),
+         url('fonts/librebaskerville-regular-webfont.woff')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-regular-webfont.woff*/ format('woff'),
+         url('fonts/librebaskerville-regular-webfont.ttf')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-regular-webfont.ttf*/ format('truetype'),
+         url('fonts/librebaskerville-regular-webfont.svg#libre_baskervilleregular')/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/fonts/librebaskerville-regular-webfont.svg#libre_baskervilleregular*/ format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+body ::selection{background: #363636;color: #fff;}
+
+
+
+
+/*General fonts*/
+body{   font-family: 'libre_baskervilleregular', Arial, Helvetica, sans-serif;}
+:lang(zh-CN) 	body{
+    font-family:黑体,STHeiti, 'libre_baskervilleregular', Arial, Helvetica, sans-serif;
+    }
+
+
+h2{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-weight:100; }
+:lang(zh-CN) h2{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; font-weight:100; }
+:lang(zh-CN) h2 strong{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; font-weight:600; }
+.txtred h2{color:#ED2224;}
+.pageintro h2{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-weight:100;}
+:lang(zh-CN) .pageintro h2{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; font-weight:100;}
+.uvc-heading h2{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-weight:100;}
+:lang(zh-CN) .uvc-heading h2{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;font-weight:100;}
+.uvc-heading h3{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-weight:100;}
+:lang(zh-CN) .uvc-heading h3{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; font-weight:100;}
+.title.title_size_medium h1{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-weight:100; font-size:40px; text-transform:none;}
+:lang(zh-CN) .title.title_size_medium h1{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; font-weight:100; font-size:40px; text-transform:none;}
+h1,h2,h3,h4,h5,h6{letter-spacing:0;}
+
+.notransform{text-transform:none !important;}
+p a:hover,
+a:hover{text-decoration:underline; color:#E2231A;}
+
+/*Logo*/
+
+
+/*Menu*/
+nav.main_menu>ul>li>a{font-weight:400; text-shadow: 2px 2px 8px rgba(0,0,0,0.1); font-family: 'dinregular', Arial, Helvetica, sans-serif; height:auto; line-height: 30px; padding: 26px 20px 4px 20px;}
+:lang(zh-CN) nav.main_menu>ul>li>a{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+header.sticky nav.main_menu>ul>li>a{line-height: 20px !important; padding: 16px 20px 4px 20px;}
+
+nav.main_menu>ul>li.current-menu-parent>a,
+nav.main_menu>ul>li.current_page_parent>a,
+nav.main_menu>ul>li.current-menu-item a{border-bottom:3px solid #C82026;}
+
+
+nav.main_menu>ul>li.current-menu-parent>.second.drop_down_start>a,
+nav.main_menu>ul>li.current_page_parent>.second.drop_down_start>a,
+nav.main_menu>ul>li.current-menu-item >.second.drop_down_start a{border-bottom:0px solid #C82026;}
+
+
+nav.main_menu > ul > li .second.drop_down_start a span{padding:0px 8px 4px 8px; }
+nav.main_menu > ul > li .second.drop_down_start a span.plus{display:none;}
+nav.main_menu>ul>li .second.drop_down_start .current-menu-item a span,
+nav.main_menu>ul>li.current-menu-item >.second.drop_down_start .current-menu-item> a span{border-bottom:3px solid #C82026;}
+.nav.main_menu .second .inner ul li a{font-family: 'dinregular', Arial, Helvetica, sans-serif; font-weight:100; letter-spacing:0; }
+:lang(zh-CN) .nav.main_menu .second .inner ul li a{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; font-weight:100; letter-spacing:0; }
+
+.dark:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a, .dark:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a:hover, .dark:not(.sticky):not(.scrolled) nav.main_menu>ul>li.active>a, .dark:not(.sticky):not(.scrolled) nav.main_menu>ul>li:before, .dark:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a{color:#000; font-family: 'dinmedium';height:auto; line-height: 30px; padding: 14px 20px 0px 20px;}
+:lang(zh-CN) .dark:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a, :lang(zh-CN) .dark:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a:hover, :lang(zh-CN) .dark:not(.sticky):not(.scrolled) nav.main_menu>ul>li.active>a, :lang(zh-CN) .dark:not(.sticky):not(.scrolled) nav.main_menu>ul>li:before, :lang(zh-CN) .dark:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a{color:#000; font-family: 黑体,STHeiti,'dinmedium';height:auto; line-height: 30px; padding: 14px 20px 0px 20px;}
+
+.light:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a, .light:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a:hover, .light:not(.sticky):not(.scrolled) nav.main_menu>ul>li.active>a, .light:not(.sticky):not(.scrolled) nav.main_menu>ul>li:before, .light:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a{font-weight:400; text-shadow: 2px 2px 8px rgba(0,0,0,0.1);     font-family: 'dinmedium'; height:auto; line-height: 30px; padding: 26px 20px 0px 20px;}
+:lang(zh-CN) .light:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a, :lang(zh-CN) .light:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a:hover, :lang(zh-CN) .light:not(.sticky):not(.scrolled) nav.main_menu>ul>li.active>a, :lang(zh-CN) .light:not(.sticky):not(.scrolled) nav.main_menu>ul>li:before, :lang(zh-CN) .light:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a{font-weight:400; text-shadow: 2px 2px 8px rgba(0,0,0,0.1);     font-family: 黑体,STHeiti,'dinmedium'; height:auto; line-height: 30px; padding: 26px 20px 0px 20px;}
+
+header.transparent:not(.sticky) .drop_down .second{top:110%;}
+
+
+
+.drop_down .second .inner>ul, 
+li.narrow .second .inner ul{background-color: #f1f1f2;
+border-color: #f1f1f2}
+.drop_down .second .inner ul li a{font-family: 'dinregular', Arial, Helvetica, sans-serif;}
+:lang(zh-CN) .drop_down .second .inner ul li a{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif;}
+
+.side_menu_button_wrapper { position:relative;  width:120px;}
+.side_menu_button_wrapper .header_bottom_right_widget_holder{position:absolute; top:11px; right:-20px;}
+.sticky .side_menu_button_wrapper .header_bottom_right_widget_holder{top:-5px;}
+.side_menu_button_wrapper .side_menu_button{float:left;padding:26px 0 0 10px; height:70px;}
+.sticky .side_menu_button_wrapper .side_menu_button{padding:10px 0 0 10px;}
+.sticky .side_menu_button_wrapper .side_menu_button{height:56px;}
+.sticky .q_logo img.sticky{top: -40%;}
+
+
+.side_menu_button>a.search_button{color:#010101; display:inline-block; text-align:center;}
+.side_menu_button .languagebox{display:inline-block;}
+
+.side_menu_button_wrapper .widget_icl_lang_sel_widget{}
+.side_menu_button{}
+
+
+.widget_icl_lang_sel_widget #lang_sel li.icl-zh-hans{display:none;}
+.widget_icl_lang_sel_widget #lang_sel{margin:20px 5px 0 -25px;}
+.widget_icl_lang_sel_widget #lang_sel li{width: 60px;}
+.widget_icl_lang_sel_widget #lang_sel ul ul{border-top:0px solid #cdcdcd; width: 60px; margin:-5px 0 0 0;}
+.widget_icl_lang_sel_widget #lang_sel a{ display: block; font-size: 0px;  line-height:20px; color: #000; border: 0px solid #cdcdcd; background: url(images/nav-arrow-down-black.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/nav-arrow-down-black.png*/ transparent 80% 50% no-repeat; width:50px; text-align:left;}
+
+.home .widget_icl_lang_sel_widget #lang_sel a{color:#fff; background: url(images/nav-arrow-down.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/nav-arrow-down.png*/ transparent right no-repeat;}
+.home .widget_icl_lang_sel_widget #lang_sel ul ul a{background:#f1f1f2; color: #000; }
+.page_header.sticky .widget_icl_lang_sel_widget #lang_sel a{ color: #000; background: url(images/nav-arrow-down-black.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/nav-arrow-down-black.png*/ transparent right no-repeat;} 
+.widget_icl_lang_sel_widget #lang_sel ul ul a{background:#f1f1f2;}
+.page_header.sticky .widget_icl_lang_sel_widget #lang_sel ul ul a{background:#f1f1f2;}
+.widget_icl_lang_sel_widget #lang_sel img.iclflag{display:none;}
+.widget_icl_lang_sel_widget #lang_sel a.icl-en:after{content:"EN"; display:inline-block; font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:16px;}
+.widget_icl_lang_sel_widget #lang_sel a.icl-cn:after{content:"CN"; display:inline-block; font-family: 'dinregular', Arial, Helvetica, sans-serif;font-size:16px; }
+.widget_icl_lang_sel_widget #lang_sel .icl-en a:after{content:"EN"; display:inline-block;font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:16px;}
+.widget_icl_lang_sel_widget #lang_sel .icl-cn a:after{content:"CN"; display:inline-block;font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:16px;}
+
+nav.main_menu ul li.menu-item-language{display:none;}
+
+
+#nav-menu-item-17390 .second,
+#nav-menu-item-14890 .second{display:none !important;}
+.mobile_menu #mobile-menu-item-14890 .mobile_arrow,
+.mobile_menu #mobile-menu-item-14890 .sub_menu{display:none !important;}
+
+
+/*Search*/
+.home form#searchform.qode_search_form{border-bottom:15px solid #262626;}
+form#searchform.qode_search_form{border-bottom:15px solid #fff; top: -15px; }
+
+form#searchform.qode_search_form .qode_icon_in_search{margin:10px 0 0 0; font-size: 18px;line-height: 50px;}
+form#searchform.qode_search_form input, 
+form#searchform.qode_search_form input:focus{font-size: 18px;line-height: 25px; margin:25px 0 0 0;}
+
+
+
+/*Footer top*/
+.footer_top .two_columns_50_50>.column1{width:66%; text-align:left; }
+
+/*Footer top*/
+.footer_top .two_columns_50_50>.column2{width:34%;text-align:left; }
+.footer_top .two_columns_50_50>.column2 img{display:inline-block; float:left; margin:0px 0 0 0;}
+
+.footer_top h5{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-weight:100;display:inline-block; border-bottom:1px solid #fff; text-transform:none;}
+:lang(zh-CN) .footer_top h5{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; font-weight:100;}
+.footer_top .column1 h5{padding:0 300px 5px 0px;}
+.footer_top .column2 h5{padding:0 100px 5px 0px;}
+.footer_top li.menu-item a{color:#fff;}
+.footer_top li.menu-item a:hover{text-decoration:none;}
+.footer_top li.menu-item a:after{content: "\f0da"; display: inline-block; padding:0px 0px 0 8px; font-family:'FontAwesome'; vertical-align:bottom; font-size: 16px; line-height:18px;text-rendering: auto;}
+.footer_top .widget.widget_nav_menu li{display:inline-block; width:40%;}
+
+
+/*Footer bottom*/
+.footer_bottom ul li a{text-transform:none; font-family: 'dinregular', Arial, Helvetica, sans-serif; letter-spacing: 0px;font-size: 15px;}
+:lang(zh-CN) .footer_bottom ul li a{text-transform:none; font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; letter-spacing: 0px;font-size: 15px;}
+.footer_bottom ul li a:hover{text-decoration:none;}
+.footer_bottom{font-family: 'dinregular', Arial, Helvetica, sans-serif; }
+:lang(zh-CN) .footer_bottom{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+
+
+
+
+
+/*Buttons*/
+.qbutton.medium{font-family: 'dinregular', Arial, Helvetica, sans-serif; padding:7px 20px 7px 20px ; font-size:18px; font-style:normal;font-weight:600; color:#fff;   background:#010101; border: 0px solid white; -o-border-radius: 0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;-ms-border-radius: 0px;border-radius: 0px;  }
+:lang(zh-CN) .qbutton.medium{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif;   }
+  .qbutton.medium:hover{color:#010101;   background:#fff;}
+.qbutton.medium.white{color:#777677;   background:#fff;  }
+.qbutton.medium.white:hover{color:#fff; background:#777677; border:0px solid #ffffff; }
+
+/*Home*/
+
+/*Homepage animation*/
+
+.homepageani  .upb_video-bg{overflow:visible;}
+
+.homepageani .ult-content-box{height:650px; vertical-align:middle; width:100%;}
+.homepageani .ult-content-box .vc_row{height:100%; display:table; vertical-align:middle;  width:100%; padding:0; margin:0;}
+.homepageani .ult-content-box .vc_row .full_section_inner{display:table-cell; height:100%; vertical-align:middle;  width:100%; padding:0; margin:0 15px 0 0;}
+.homepageani .hp_title1 p{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-size: 100px; color: #fff; text-align:center;text-shadow: 2px 2px 8px rgba(0,0,0,0.1); }
+:lang(zh-CN) .homepageani .hp_title1 p{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+.homepageani .hp_title2 p{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-size: 100px; color: #fff;  text-align:center;margin: 75px 0 0px 0;   text-shadow: 2px 2px 8px rgba(0,0,0,0.1);}
+:lang(zh-CN) .homepageani .hp_title2 p{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+
+
+
+/*Homepage case slider*/
+.homepage-case-slider .sliderouterbox{height:500px; vertical-align:middle; display:table; width:100%; text-align:center; } 
+.homepage-case-slider .sliderinnerbox{display:table-cell; height:500px; vertical-align:middle; width:100%; text-align:center;}
+.homepage-case-slider div.ls-l h4{font-family: 'dinregular', Arial, Helvetica, sans-serif;color:#808080; margin:0px 0 0 0; font-size:24px;}
+:lang(zh-CN) .homepage-case-slider div.ls-l h4{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif;}
+.homepage-case-slider div.ls-l h2{font-family: 'dinbold', Arial, Helvetica, sans-serif; color:#ED2224; font-size:34px; line-height:38px;}
+:lang(zh-CN) .homepage-case-slider div.ls-l h2{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+.homepage-case-slider div.ls-l h6{font-family: 'dinregular', Arial, Helvetica, sans-serif; color:#808080; margin:10px 0 30px 0; font-size:24px;}
+:lang(zh-CN) .homepage-case-slider div.ls-l h6{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+
+.homepage-case-slider div.ls-l a span{font-family: 'dinregular', Arial, Helvetica, sans-serif; padding:8px 20px 8px 20px; margin:4px; font-size:18px; line-height:23px; font-style:normal;font-weight:100; color:#fff;   background:#ED2224; border: 0px solid white; text-transform:uppercase; display:inline-block;}
+:lang(zh-CN) .homepage-case-slider div.ls-l a span{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+.homepage-case-slider div.ls-l a{border:1px solid #E2231A; display:inline-block; }
+.homepage-case-slider div.ls-l a:hover span{background:#FFF; color:#ED2224; }
+.homepage-case-slider  div.ls-l a:hover{border:1px solid #FFF;}
+
+
+
+
+/*Homepage services*/
+
+.homepage_services .contbox .ult-content-box{height:500px; vertical-align:middle;}
+.homepage_services .contbox .ult-content-box .vc_row{height:100%; display:table; vertical-align:middle;  text-align:right; width:100%;}
+.homepage_services .contbox .ult-content-box .vc_row .full_section_inner{display:table-cell; height:100%; vertical-align:middle;  width:100%; text-align:right;}
+.homepage_services .contbox .ult-content-box .vc_row .full_section_inner .wpb_wrapper{ float:right; width:737px; text-align:center;}
+.homepage_services .contbox .subtitlebox,
+.homepage_services .contbox .subtitlebox p{font-family: 'dinregular', Arial, Helvetica, sans-serif; text-align: center; color: #fff; font-size: 24px;  font-weight: 400; text-transform: uppercase; padding:0px 0 50px 0; display:block;}
+:lang(zh-CN) .homepage_services .contbox .subtitlebox p{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+.homepage_services .contbox .titlebox,
+.homepage_services .contbox .titlebox p{text-align: center; font-family: 'dinbold'; font-size: 95px; font-weight: 100; line-height: 90px; color: #fff; text-transform:uppercase; }
+:lang(zh-CN) .homepage_services .contbox .titlebox p{ font-family: 黑体,STHeiti,'dinbold';  font-size: 60px; font-weight: 400; line-height: 70px;}
+.homepage_services .contbox .qbutton{margin:40px 0 0 0 !important; }
+
+	a.buttonoutliner.ubtn-link.whitebutton{border:1px solid #fff; margin:20px 0 0 0;}
+	a.buttonoutliner.ubtn-link.whitebutton button.ubtn-normal{background:#FFF !important; margin:4px !important; padding: 10px 25px !important; -webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition:none;}
+	a.buttonoutliner.ubtn-link.whitebutton .ubtn-text{color:#777677; font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:21px; line-height:25px; text-transform:uppercase;}
+	:lang(zh-CN) a.buttonoutliner.ubtn-link.whitebutton .ubtn-text{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+		a.buttonoutliner.ubtn-link.whitebutton:hover{border:1px solid #777677;}
+	a.buttonoutliner.ubtn-link.whitebutton:hover button.ubtn-normal{background:#777677 !important;  }
+	a.buttonoutliner.ubtn-link.whitebutton:hover .ubtn-text{color:#fff;}
+
+
+
+/*Homepage news1*/
+
+.homepage_news1bl{height:250px; overflow:hidden; background:#c3272f; padding:0; margin:0;  }
+.homepage_news1bl  .slick-slider{margin:0 17px 0 12px;}
+
+.homepage_news1bl .slick-next{color:#fff; top:25px; right:-5px;} 
+.homepage_news1bl .slick-prev{color:#fff; top:25px; left:-5px;} 
+
+.homepage_news1bl .wpb_text_column.wpb_content_element p,
+.homepage_news1bl .wpb_text_column.wpb_content_element{color:#fff; font-family: 'dinregular', Arial, Helvetica, sans-serif;font-size: 20px;line-height: 25px;}
+:lang(zh-CN) .homepage_news1bl .wpb_text_column.wpb_content_element p,
+:lang(zh-CN) .homepage_news1bl .wpb_text_column.wpb_content_element{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif;}
+.homepage_news1bl .wpb_text_column.wpb_content_element a{font-size: 22px; line-height: 25px; margin:50px 0 0px 0; font-weight:600; color:#fff; display:block;}
+.homepage_news1bl .wpb_text_column.wpb_content_element h4 span{color:#fff; font-size: 20px;line-height: 25px; }
+.homepage_news1bl .wpb_text_column.wpb_content_element h4{margin:10px 0 10px 0;}
+
+
+
+
+
+
+/*Homepage wechat*/
+
+.homepage_news2 .titlebox,
+.homepage_news2 .titlebox p{font-family: 'dinregular', Arial, Helvetica, sans-serif;text-align: center; color: #fff; font-size: 20px; line-height:25px; margin: 10px 0 0 0;}
+:lang(zh-CN) .homepage_news2 .titlebox p{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif;}
+.homepage_news2 .metabox p{font-family: 'dinregular', Arial, Helvetica, sans-serif; text-align: center; color: #fff; font-size: 20px; line-height:25px; margin: 10px 0 0 0;}
+:lang(zh-CN) .homepage_news2 .metabox p{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+.homepage_news2 .icondiy{font-size: 30px; line-height: 35px; color: #a11619; text-align: center;}
+
+.homepage_wechatnews{height:250px; overflow:hidden; background:#ed2024; margin:0; padding:0;}
+.homepage_wechatnews .slick-slider{margin:0 17px 0 12px;}
+
+.homepage_wechatnews .slick-next{color:#fff; top:-40px; right:-5px;} 
+.homepage_wechatnews .slick-prev{color:#fff; top:-40px; left:-5px;} 
+
+.homepage_wechatnews h2{font-size: 30px;line-height: 34px;}
+.homepage_wechatnews h2 a{color:#fff; font-size: 28px;line-height: 32px; padding:0 0 10px 0; display:block; font-weight:400;}
+.homepage_wechatnews h4 a{color:#fff;}
+.homepage_wechatnews h2 a:hover{text-decoration:none;}
+.homepage_wechatnews h4{font-size: 22px;line-height: 27px;color:#fff;}
+
+.homepage_twitternews{height:250px; overflow:hidden; background:#ed2024; margin:0; padding:0;}
+.homepage_twitternews .slick-slider{margin:0 17px 0 12px;}
+
+.homepage_twitternews h2{font-family: 'dinregular', Arial, Helvetica, sans-serif; text-align: left; color: #fff; font-size: 20px; line-height:25px; margin: 0px 0 0 0;}
+.homepage_twitternews h4{font-size: 20px;line-height: 25px;color:#fff;font-family: 'dinregular', Arial, Helvetica, sans-serif; margin:13px 0 0 0;}
+.homepage_twitternews h4 a{color:#fff;}
+.homepage_twitternews h4 a:hover{text-decoration:none;}
+
+
+.homepage_twitternews .slick-next{color:#fff; top:-40px; right:-5px;} 
+.homepage_twitternews .slick-prev{color:#fff; top:-40px; left:-5px;} 
+
+
+
+
+
+
+
+
+/*Homepage news box 3*/
+.homepage_news3.wpb_column{background-size:auto 100% !important; background-position:50% 50% !important}
+.homepage_news3 .ult-content-box{height:500px; vertical-align:middle;}
+.homepage_news3 .ult-content-box .vc_row{height:100%; display:table; vertical-align:middle;  }
+.homepage_news3 .ult-content-box .vc_row .full_section_inner{display:table-cell; height:100%; vertical-align:middle;  width:90%; padding:0 5% 0 5%;}
+.homepage_news3 .titlebox p{color: #010101; font-size: 48px; line-height: 54px; font-family: 'dinbold', Arial, Helvetica, sans-serif;  font-weight: 400; width: 600px;}
+:lang(zh-CN) .homepage_news3 .titlebox p{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;   }
+.homepage_news3 .titlebox{color: #010101; font-size: 48px; line-height: 54px;font-family: 'dinbold', Arial, Helvetica, sans-serif;  font-weight: 400; padding:0 0 40px 0; /*! width: 100%; */}
+:lang(zh-CN) .homepage_news3 .titlebox{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;  }
+.homepage_news3 .contbox p{font-family: 'libre_baskervilleregular'; font-size: 20px; line-height:25px;text-transform: none; font-weight: 100;}
+:lang(zh-CN) .homepage_news3 .contbox p{font-family: 黑体,STHeiti,'libre_baskervilleregular'; }
+.homepage_news3 .contbox{font-family: 'libre_baskervilleregular'; font-size: 20px; line-height:25px;text-transform: none; font-weight: 100; padding:0 0 30px 0; }
+:lang(zh-CN) .homepage_news3 .contbox{font-family: 黑体,STHeiti,'libre_baskervilleregular';}
+
+.homepage_news3 a:hover .contbox{color:#010101;}
+
+	a.buttonoutliner.ubtn-link.blackbutton{border:1px solid #000;}
+	a.buttonoutliner.ubtn-link.blackbutton button.ubtn-normal{background:#000 !important; margin:4px !important; padding: 10px 25px !important; -webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition:none;}
+	a.buttonoutliner.ubtn-link.blackbutton .ubtn-text{color:#fff; font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:21px; line-height:25px; text-transform:uppercase;}
+	:lang(zh-CN)	a.buttonoutliner.ubtn-link.blackbutton .ubtn-text{color:#fff; font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; font-size:21px; line-height:25px; text-transform:uppercase;}
+
+
+/*Homepage news box 4*/
+.homepage_news4 .ult-content-box{height:500px; vertical-align:middle;}
+.homepage_news4 .ult-content-box .vc_row{height:100%; display:table; vertical-align:middle; width:100%; }
+.homepage_news4 .ult-content-box .vc_row .full_section_inner{display:table-cell; height:100%; vertical-align:middle;  width:90%; padding:0 5% 0 5%;}
+.homepage_news4 .subtitlebox{color: #fff; font-size: 38px; font-family: 'dinbold', Arial, Helvetica, sans-serif;font-weight: 400; text-transform: uppercase; display: inline-block; padding:50px 0 0px 0; }
+:lang(zh-CN) .homepage_news4 .subtitlebox{ font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;}
+.homepage_news4 .subtitlebox p{color: #fff; font-size: 38px; font-family: 'dinbold', Arial, Helvetica, sans-serif;font-weight: 400; text-transform: uppercase; }
+:lang(zh-CN) .homepage_news4 .subtitlebox p{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+.homepagearrow p img{width:80px !important; height:80px !important;}
+
+
+/*Portfolio Page*/
+.eg-cases-skin-element-10{font-family: 'dinregular', Arial, Helvetica, sans-serif; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);}
+:lang(zh-CN) .eg-cases-skin-element-10{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);}
+.eg-cases-skin-element-8{font-family: 'dinbold', Arial, Helvetica, sans-serif; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);}
+:lang(zh-CN) .eg-cases-skin-element-8{font-family:黑体,STHeiti, 'dinbold', Arial, Helvetica, sans-serif; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);}
+.eg-cases-skin-element-11{font-family: 'dinregular', Arial, Helvetica, sans-serif;text-shadow: 2px 2px 8px rgba(0,0,0,0.5); }
+:lang(zh-CN) .eg-cases-skin-element-11{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif;text-shadow: 2px 2px 8px rgba(0,0,0,0.5);}
+
+#workgrid .eg-cases-skin-element-2{background:transparent url(images/more-cases-0.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/more-cases-0.png*/ 0 0 no-repeat ; margin:10px 0 0 0;}
+#workgrid .eg-cases-skin-element-2:hover{background:transparent url(images/more-cases-1.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/more-cases-1.png*/ 0 0 no-repeat ;}
+#workgrid .eg-cases-skin-element-2 i{color:#fff;}
+#workgrid .eg-cases-skin-element-2:hover i{color:rgba(255,255,255,0.00);}
+
+
+/*Single Portfolio Page*/
+.single-portfolio_page .portfolio_single{}
+.single-portfolio_page .content .container .container_inner.default_template_holder{padding-top:0; }
+.single-portfolio_page{text-align:center;}
+.single-portfolio_page .vc_rowport{}
+.single-portfolio_page .flex-direction-nav a{border: 0px solid #fff; width: 60px; height:60px;}
+.single-portfolio_page .flexslider:hover .flex-direction-nav a.flex-prev:hover,
+.single-portfolio_page .flexslider:hover .flex-direction-nav a.flex-next:hover{background:none;}
+.single-portfolio_page .flex-direction-nav a i{font-size:44px; font-weight:lighter;}
+.single-portfolio_page .flexslider .flex-direction-nav .flex-next{right: 45px; }
+.single-portfolio_page .flexslider .flex-direction-nav .flex-next div{width: 60px; height:60px; background:url(images/next-slide.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/next-slide.png*/ 0  15px no-repeat; margin:-7px 0 0 0;}
+.single-portfolio_page .flexslider .flex-direction-nav .flex-prev div{width: 60px; height:60px; background:url(images/back-slide.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/back-slide.png*/ 0  15px no-repeat; margin:-7px 0 0 0;}
+.single-portfolio_page .flexslider .flex-direction-nav .flex-prev div i,
+.single-portfolio_page .flexslider .flex-direction-nav .flex-next div i{display:none;}
+.single-portfolio_page .flexslider .flex-direction-nav .flex-next:hover div{background:transparent url(images/next-slide.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/next-slide.png*/ 0  -82px no-repeat; }
+.single-portfolio_page .flexslider .flex-direction-nav .flex-prev:hover div{background:transparent url(images/back-slide.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/back-slide.png*/ 0  -82px no-repeat; }
+.single-portfolio_page .flexslider .video{margin: 0px 0 0px 0; }
+
+.portfolio_single .section .slide .video-wrap .mejs-container .mejs-controls{display:none !important;}
+.portfolio_single .section .slide.flex-active-slide .video-wrap .mejs-container .mejs-controls{display:block !important; background:rgba(255,255,255,0.2)}
+.portfolio_single .section .slide.clone .video-wrap .mejs-container .mejs-controls{display:none !important; }
+.single-portfolio_page .section .video-wrap{bottom:0; top:auto;}
+
+
+/*.video .mejs-container .mejs-controls .mejs-button.mejs-fullscreen-button{background:url(images/fullscreen.png) 50% 50% no-repeat;}
+
+.portfolio_single .mejs-overlay-play  div.mejs-overlay-button{background:url(images/video.png) 50% 50% no-repeat; height:100%; width:100%; margin:0px !important;}
+.portfolio_single .mejs-overlay-play  div.mejs-overlay-button:hover{background:url(images/video-over.png) 50% 50% no-repeat; margin:0px !important;}*/
+
+
+
+.single-portfolio_page .vc_col-sm-3.speccase{text-align:center; display:table;  height:525px; vertical-align:middle; padding:0; margin:0;}
+.single-portfolio_page .vc_col-sm-3.speccase .wpb_wrapper{height:100%; display:table-cell;  vertical-align:middle;} 
+.single-portfolio_page .vc_col-sm-3.speccase h2{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-size:40px; line-height:40px; color:#ED2224; padding:0 40px 0 40px; font-weight:100;}
+:lang(zh-CN) .single-portfolio_page .vc_col-sm-3.speccase h2{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; font-size:40px; line-height:40px; color:#ED2224; padding:0 40px 0 40px; font-weight:100;} .single-portfolio_page .vc_col-sm-3.speccase h2{font-family: 'dinbold', Arial, Helvetica, sans-serif; }
+.single-portfolio_page .vc_col-sm-3.speccase h4{font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:21px; line-height:28px; color:#808080;padding:0 40px 20px 40px; font-weight:100;}
+:lang(zh-CN) .single-portfolio_page .vc_col-sm-3.speccase h4{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+.single-portfolio_page .vc_col-sm-3.speccase h5{font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:21px; line-height:28px; color:#808080; font-weight:100; text-transform:none; padding:20px 40px 20px 40px;}
+:lang(zh-CN) .single-portfolio_page .vc_col-sm-3.speccase h5{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+.single-portfolio_page .vc_col-sm-9.speccaseslider{padding:0 ; margin:0; width: calc(75% - 30px);}
+.single-portfolio_page .speccasecontainer .full_section_inner{background:#f1f1f2;height:100%; margin:0; padding:0;} 
+.single-portfolio_page .speccasecontainer{margin:0; padding:0;}
+.single-portfolio_page .flex-viewport{overflow:visible !important; width:75%; } 
+.single-portfolio_page .flexslider{background:#000; margin:0; padding:0;}
+.single-portfolio_page .flexslider .slides{}
+.single-portfolio_page .flexslider .slides>li{}
+.single-portfolio_page .flexslider .slides>li img{opacity: 0.3; filter: alpha(opacity=30);}
+.single-portfolio_page .flexslider	li.slide.flex-active-slide img{opacity: 1; filter: alpha(opacity=100);}
+
+.single-portfolio_page .portfolio_navigation{width:1100px; margin:0 auto 100px auto; display:none;}
+
+
+.single-portfolio_page .container_inner{width:100%;}
+.single-portfolio_page footer .container_inner{width:1100px;}
+.case_introbox, case_introbox h1, .case_introbox h2, .case_introbox h3, .case_introbox h4, .case_introbox h5, .case_introbox h6{color:#969696; font-family: 'dinbold', Arial, Helvetica, sans-serif; text-transform:none; font-weight:100; letter-spacing:0;  font-size: 30px; line-height: 34px; }
+:lang(zh-CN) .case_introbox, :lang(zh-CN) case_introbox h1, :lang(zh-CN) .case_introbox h2, :lang(zh-CN) .case_introbox h3, :lang(zh-CN) .case_introbox h4, :lang(zh-CN) .case_introbox h5, :lang(zh-CN) .case_introbox h6{color:#969696; font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+.casetaglink .ult_colorlink{font-family: 'dinregular', Arial, Helvetica, sans-serif; padding:4px 20px 4px 20px ; font-size:18px; line-height:18px; font-style:normal;font-weight:600; color:#fff;   background:#ed2024;  }
+:lang(zh-CN) .casetaglink .ult_colorlink{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif;  }
+.single-portfolio_page .ult_main_cl.casetaglink{margin:5px 20px 5px 0px !important;  display:inline-block;}
+.single-portfolio_page .ult_main_cl.casetaglink:last-child{}
+
+
+.casequote .wpb_single_image .vc_box_border_circle.vc_box_border_grey{background-color: #C9C9C9; padding: 1px;}
+.casequote .uvc-heading h3{font-size:21px; line-height:25px; color:#808080;}
+.casequote .uvc-heading{font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:16px; line-height:20px; color:#808080;}
+
+.casequote .casequotetxt:before{content:""; width:47px; height:138px; background: url(images/quotecloud.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/quotecloud.png*/ 15px bottom  no-repeat;  display:block; float:left; }
+
+.casequote .casequotetxt .wpb_wrapper{ background:#fff; margin:0 10px 0 27px; padding:10px 20px 10px 10px;}
+.casequote blockquote i.pull-left{background: url(images/quoteopen.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/quoteopen.png*/ no-repeat; display:block; width:19px; height:12px; font-size:0;}
+.casequote .casequotetxt .wpb_wrapper h5{padding:40px 40px 40px 40px; font-size:16px; line-height:22px; color:#666667;background:#fff url(images/quoteopen.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/quoteopen.png*/ right bottom no-repeat;}
+
+
+.pricesheading.uvc-heading h3{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-size: 24px; line-height: 28px; color:#969696; }
+:lang(zh-CN) .pricesheading.uvc-heading h3{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;  }
+.pricesheading.uvc-heading .uvc-sub-heading{font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:24px; line-height:28px;color:#969696; }
+:lang(zh-CN) .pricesheading.uvc-heading .uvc-sub-heading{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+
+
+/*Company*/
+#companydetail{height:0px; overflow:hidden; }
+#companydetail.open{}
+
+#companydetail .companydetailcontainer{min-height:500px; background-position: 50% 50% !important;  background-size: auto auto !important;}
+#companydetail .companydetailcontainer .full_section_inner{min-height:500px; vertical-align:middle;text-align:center; margin: 0 auto 0 auto;width:40%;display:block;}
+#companydetail .companydetailcontainer .full_section_inner .wpb_column{padding:0; display:block; text-align:center; margin:0 auto 0 auto;width:100%; }
+#companydetail .companydetailcontainer .full_section_inner .wpb_wrapper{display:table-cell; vertical-align:middle; height:500px; text-align:center; }
+#companydetail .companydetailcontainer .full_section_inner .wpb_wrapper .wpb_wrapper{display:inline-block; height:auto; } 
+#companydetail .companydetailcontainer .uvc-heading{width:100%; margin:0 auto 0 auto;}
+#companydetail .companydetailcontainer .uvc-heading h3{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-size: 24px; line-height: 28px; color:#969696; margin:0 0 30px 0; text-transform:none;}
+:lang(zh-CN) #companydetail .companydetailcontainer .uvc-heading h3{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+#companydetail .companydetailcontainer .uvc-sub-heading{font-family: 'libre_baskervilleregular'; font-size: 16px; line-height:20px; color:#4D4D4E;  margin:0 auto 30px auto; width:100%; }
+:lang(zh-CN) #companydetail .companydetailcontainer .uvc-sub-heading{font-family: 黑体,STHeiti,'libre_baskervilleregular'; }
+#companydetail .companydetailcontainer .companydetailcontact{font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:18px; line-height:22px;}
+:lang(zh-CN) #companydetail .companydetailcontainer .companydetailcontact{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+
+
+#companydetail .companydetailclose .wpb_wrapper{padding:5px 5px 20px 0px;  display:inline-block; right:20px; top:5px; z-index:900; position:absolute;}
+#companydetail .companydetailclose .wpb_wrapper img:hover{cursor:pointer; -webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	transform: rotate(-135deg);}
+#companydetail .companydetailclose .wpb_wrapper img{-webkit-transition: -webkit-transform 300ms ease-in-out;
+	-moz-transition: -moz-transform 300ms ease-in-out;
+	-ms-transition: -ms-transform 300ms ease-in-out;
+	-o-transition: -o-transform 300ms ease-in-out;
+	transition: transform 300ms ease-in-out;}
+	
+.companydetail .ult-content-box:hover{background-color: #f2f2f3 !important;}
+.companydetail .ult-content-box{background:none !important;}
+
+.companydetailcontainer{display:none;}
+.companydetailcontainer.show{display:block;}
+
+
+/*Company site*/
+
+.page-id-14930 .full_width .vc_row:nth-child(odd){background:#f2f2f3;}
+.companyintro h2{color:#B0B0B0; padding:20px 0 20px 0;}
+.vc_row.companyintrocont ul,
+.vc_row.companyintrocont ol{margin:0 0 0 22px;}
+.vc_row.companyintrocont li,
+.full_width .vc_row.companyintrocont  p{color:#4D4D4E;}
+.companycontact-tit h3{font-family: 'dinbold', Arial, Helvetica, sans-serif; color:#6D6E70; letter-spacing:0; text-transform:none; font-weight:100; font-size:20px; padding:25px 0 10px 0;}
+:lang(zh-CN) .companycontact-tit h3{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+.full_width .vc_row.companyintrocont .companycontact-txt p{color:#959595;}
+
+div.ubtn-ctn-left.serviceslink{display:inline-block; margin:0; padding:0;}
+a.serviceslink.ubtn-link{margin:0 20px 20px 0px;}
+.serviceslink button.ubtn{font-family: 'dinbold', Arial, Helvetica, sans-serif; background:#BCBEC0 !important; color:#fff !important; font-size:18px; padding: 5px 25px; margin:0; }
+:lang(zh-CN) .serviceslink button.ubtn{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;  }
+.serviceslink button.ubtn .ubtn-data.ubtn-text{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-weight:100;}
+:lang(zh-CN) .serviceslink button.ubtn .ubtn-data.ubtn-text{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+.serviceslink button.ubtn:hover{background:#E2231A !important; color:#fff !important; font-size:18px; }
+
+.related-cases-cont .eg-company-cases-element-0,
+.related-cases-cont .eg-company-cases-element-8{font-family: 'dinbold', Arial, Helvetica, sans-serif;}
+:lang(zh-CN) .related-cases-cont .eg-company-cases-element-0,
+:lang(zh-CN) .related-cases-cont .eg-company-cases-element-8{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;}
+.related-cases-cont.hide{display:none;}
+
+.esg-grid.esg-container{font-family: 'dinregular', Arial, Helvetica, sans-serif;}
+:lang(zh-CN) .esg-grid.esg-container{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif;}
+.esg-grid.esg-container .mainul li.eg-company-cases-wrapper{background-color:rgba(255,255,255,0.00);}
+.esg-media-cover-wrapper .eg-company-cases-content{background-color:rgba(239,19,23,1.00); background:none !important;}
+.esg-entry-content .eg-company-cases-element-6{background-color:rgba(255,255,255,0.00); background:none !important;font-family: 'dinbold', Arial, Helvetica, sans-serif; font-weight:100;}
+:lang(zh-CN) .esg-entry-content .eg-company-cases-element-6{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+.esg-entry-content .eg-company-cases-element-0{background-color:rgba(255,255,255,0.00); background:none !important;font-family: 'dinbold', Arial, Helvetica, sans-serif; font-weight:100;}
+:lang(zh-CN) .esg-entry-content .eg-company-cases-element-0{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+.eg-company-cases-container{background:rgba(255,255,255,0.00) !important;}
+.addresscompanyrow .wpb_text_column.wpb_content_element{width: calc(33% - 20px); display:inline-block; border-left:1px solid #E2231A; padding:0 5px 0 20px; vertical-align: top; word-break: break-all; }
+.addresscompanyrow .wpb_text_column.wpb_content_element:first-child{border-left:0px solid #E2231A; padding:0 5px 0 0px;}
+.addresscompanyrow .wpb_text_column.wpb_content_element:last-child{border-left:1px solid #E2231A; padding:0 px 0 20px;}
+.addresscompanyrow .wpb_wrapper p strong{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-weight:100 !important; font-size:18px; line-height:28px;}
+:lang(zh-CN) .addresscompanyrow .wpb_wrapper p strong{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+
+
+.overlay-fade.ult-open .ult_modal-content{border:none !important;}
+span.modal-leadership1-link{color: #fff !important;font-family: 'dinregular', Arial, Helvetica, sans-serif;font-size: 13px;line-height: 15px;text-transform: uppercase; background-color: #C9C9C9; display:inline-block; margin: 4px;padding: 6px 15px !important;}
+:lang(zh-CN) span.modal-leadership1-link{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif;}
+
+.leadershipcompbox div.ult-modal-input-wrapper{margin:0px 0 0px 0; }
+.leadershipcompbox .uvc-main-heading h2{font-family: 'dinbold', Arial, Helvetica, sans-serif;  font-size:18px; line-height:20px; color:#231F20;}
+:lang(zh-CN) .leadershipcompbox .uvc-main-heading h2{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;  }
+.leadershipcompbox .uvc-sub-heading{color:#231F20; font-size:14px; line-height:20px; padding:5px 0 30px 0;}
+
+.leadershipcompbox div.ult-modal-input-wrapper img{padding:0 0 10px 0;}
+
+.modal-leadership-img .ult_modal.ult-medium{width: 80%}
+.modal-leadership-img .ult_modal-body{padding: 50px 50px 30px 50px;}
+.modal-leadership-img .ult_modal-header{display:none;}
+.modal-leadership-img .ult_modal-body img{}
+.modal-leadership-img .ult_modal-body p{margin:0;}
+.modal-leadership-img .ult_modal-content h2{ font-family: 'dinbold', Arial, Helvetica, sans-serif;font-weight: 100; font-size:28px; line-height:32px; color:#231F20; margin:0px 0 0 0; padding:0;}
+:lang(zh-CN) .modal-leadership-img .ult_modal-content h2{ font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;}
+.modal-leadership-img .ult_modal-content h4{ font-family: 'dinbold', Arial, Helvetica, sans-serif;font-weight: 100; font-size:24px; line-height:28px; color: #B0B0B0; margin:5px 0 20px 0;}
+:lang(zh-CN) .modal-leadership-img .ult_modal-content h4{ font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;}
+.full_width  .leadershipcompbox .vc_row:nth-child(odd){background:none;}
+
+.related-cases-cont.hidethis{display:none;}
+
+
+
+/*Contact*/
+.vc_row.address .wpb_single_image .vc_single_image-wrapper img{width:100% !important;}
+.vc_row.address{border-top:1px solid #E2231A;}
+.vc_row.address .addresstext{display:table; min-height:300px; vertical-align:middle;text-align:center;  }
+.vc_row.address .addresstext .wpb_wrapper{display:table-cell; min-height:300px; vertical-align:middle;text-align:center;  }
+
+.vc_row.address .addresstext h2{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-size: 24px; line-height: 28px; color:#B0B1B1; margin:0 0 30px 0;text-align:center;}
+:lang(zh-CN) .vc_row.address .addresstext h2{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+.vc_row.address .addresstext .uvc-sub-heading{font-family: 'libre_baskervilleregular'; font-size: 16px; line-height:20px; color:#4E4E4E; text-align:center;}
+:lang(zh-CN) .vc_row.address .addresstext .uvc-sub-heading{font-family: 黑体,STHeiti,'libre_baskervilleregular'; }
+
+
+
+/*Leadership*/
+.eg-ajax-closer-wrapper{background:#f2f2f3; padding:0 20px 0 20px;}
+.eg-leadershipskin-element-3{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-size: 24px; line-height: 26px; font-weight:100;}
+:lang(zh-CN) .eg-leadershipskin-element-3{font-family: 'dinbold', Arial, Helvetica, sans-serif; }
+.eg-leadershipskin-element-5, .eg-leadershipskin-element-5 h4{font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:18px; line-height:22px; color:#fff;}
+:lang(zh-CN) .eg-leadershipskin-element-5, :lang(zh-CN) .eg-leadershipskin-element-5 h4{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+.eg-leadershipskin-element-16{font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:18px; line-height:22px; color:#fff;}
+:lang(zh-CN) .eg-leadershipskin-element-16{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+
+.eg-acp-type1 .eg-ajax-closer.eg-ajax-navbt{background:url(images/close.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/close.png*/ no-repeat; width:50px; height:50px; font-size:0; margin:20px 0 0 20px;padding:0px 0px 0px 0px; -webkit-transition: -webkit-transform 300ms ease-in-out;
+	-moz-transition: -moz-transform 300ms ease-in-out;
+	-ms-transition: -ms-transform 300ms ease-in-out;
+	-o-transition: -o-transform 300ms ease-in-out;
+	transition: transform 300ms ease-in-out;}
+	.eg-acp-type1 .eg-ajax-closer.eg-ajax-navbt:hover{ -webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	transform: rotate(-135deg);}
+	
+	.leadershipdetailtxt .uvc-main-heading h2{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-size: 34px; line-height: 36px; font-weight:100; color:#231F20; margin:0 0 10px 0;}
+	:lang(zh-CN) .leadershipdetailtxt .uvc-main-heading h2{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+	.leadershipdetailtxt .uvc-sub-heading p{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px; font-weight:100; color:#969696; margin:0 0 0px 0;}
+	:lang(zh-CN) .leadershipdetailtxt .uvc-sub-heading p{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+	.leadershipdetailtxt .uvc-sub-heading{font-family: 'dinbold', Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px; font-weight:100; color:#969696; margin:0 0 30px 0;}
+	:lang(zh-CN) .leadershipdetailtxt .uvc-sub-heading{font-family: 黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px; font-weight:100; color:#969696; margin:0 0 30px 0;}
+	.leadershipdetailtxt .wpb_text_column{font-family: 'libre_baskervilleregular'; font-size: 14px; line-height:20px; color:#1A1A1A; }
+	#leadershipgrid{background:#000;}
+	:lang(zh-CN) .leadershipdetailtxt .wpb_text_column{font-family: 黑体,STHeiti,'libre_baskervilleregular'; font-size: 14px; line-height:20px; color:#1A1A1A; }
+	#leadershipgrid{background:#000;}
+	
+	.vc_column-inner  .eg-ajax-target-container-wrapper{background: #f2f2f3; padding-bottom:0px;}
+	.eg-ajax-target-container-wrapper div.eg-ajaxanimwrapper{width:1100px; margin:0 auto 0 auto; }
+	.eg-ajaxanimwrapper h2,
+	.eg-ajaxanimwrapper h1{font-family: 'dinbold', Arial, Helvetica, sans-serif;font-size: 34px;line-height: 36px;font-weight: 100;color: #231F20;margin: 0px 0 0px 0;}
+	.eg-ajaxanimwrapper h3{font-family: 'dinbold', Arial, Helvetica, sans-serif;font-size: 20px;line-height: 28px;font-weight: 100;color: #969696;margin: 10px 0 30px 0; text-transform:none;}
+	.eg-ajaxanimwrapper p{}
+	.eg-ajaxanimwrapper img{margin:0px 70px 100px 0;}
+	
+	.leaderrow{display:none;}
+	#leadershipdetail{display:none; height:0;overflow:hidden; padding:50px 0 50px 0;}
+    #leadershipdetail.open{display:block;}
+	
+	#leadershipdetail .leadershipdetailclose .wpb_wrapper{padding:5px 5px 20px 0px;  display:inline-block; right:20px; top:-45px; z-index:900; position:absolute;}
+#leadershipdetail .leadershipdetailclose .wpb_wrapper img:hover{cursor:pointer; -webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	transform: rotate(-135deg);}
+#leadershipdetail .leadershipdetailclose .wpb_wrapper img{-webkit-transition: -webkit-transform 300ms ease-in-out;
+	-moz-transition: -moz-transform 300ms ease-in-out;
+	-ms-transition: -ms-transform 300ms ease-in-out;
+	-o-transition: -o-transform 300ms ease-in-out;
+	transition: transform 300ms ease-in-out;}
+	
+	.leaderrow .uvc-heading h2{font-family: 'dinbold', Arial, Helvetica, sans-serif;font-size: 34px;line-height: 36px;font-weight: 100;color: #231F20;padding: 30px 0 20px 0;}
+	.leaderrow .uvc-sub-heading p, .leaderrow .uvc-sub-heading{font-family: 'dinbold', Arial, Helvetica, sans-serif;font-size: 20px;line-height: 28px;font-weight: 100;color: #969696;margin: 10px 0 30px 0; text-transform:none;}
+	
+	
+	
+	/*Leadership apart*/
+	.single.single-leadership .date{display:none;}
+	.single.single-leadership .kitpress.container .two_columns_75_25>.column1{width:100%}
+	.single.single-leadership .kitpress.container .two_columns_75_25>.column2{display:none;}
+	.single.single-leadership .vc_row{background:#fff !important;}
+	
+	
+	
+	/*Career*/
+	.ult-content-box-container.middlecenterblock{display:table; vertical-align:middle; text-align:center; width:100%; }
+	.ult-content-box-container.h500{height:500px;}
+	
+	.ult-content-box-container.middlecenterblock.h500 .ult-content-box{display:table-cell; vertical-align:middle; height:500px;}
+	
+	a.buttonoutliner.ubtn-link.redbutton{border:1px solid #E2231A;}
+	a.buttonoutliner.ubtn-link.redbutton button{background:#E2231A !important; margin:4px !important; padding: 10px 25px !important; -webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition:none;}
+	a.buttonoutliner.ubtn-link.redbutton button.ubtn-smal{padding: 7px 20px !important; } 
+	a.buttonoutliner.ubtn-link.redbutton .ubtn-text{color:#fff; font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:21px; line-height:25px; text-transform:uppercase;}
+	:lang(zh-CN) a.buttonoutliner.ubtn-link.redbutton .ubtn-text{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+	a.buttonoutliner.ubtn-link.redbutton .ubtn-small .ubtn-text{font-size:15px; line-height:20px; }
+	
+	a.buttonoutliner.ubtn-link.redbutton:hover{border:1px solid #fff;}
+	a.buttonoutliner.ubtn-link.redbutton:hover button{background:#fff !important;  }
+	a.buttonoutliner.ubtn-link.redbutton:hover .ubtn-text{color:#E2231A;}
+	
+	.whiteunderlinelink a{color:#fff; text-decoration:underline; }
+	.whiteunderlinelink a:hover{color:#fff;}
+	.uvc-heading.whiteunderlinelink.notransform h3 a{text-transform:none;}
+	
+	.middlecenterblock.h500.careerwechat{padding:0 45px 0 30px;}
+	
+	.wpb_column.careercontactbg{background-size:auto 100% !important; background-position:50% 50% !important;}
+	
+	
+	
+		/*Press*/
+	
+	.post_idatainner .date{font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:40px;line-height:40px;}
+	:lang(zh-CN)	.post_idatainner .date{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+	.blog_holder article .datemob{display:none; font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:32px;line-height:32px; color: #808080;}
+	:lang(zh-CN) .blog_holder article .datemob{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+	.blog_holder article .post_more{margin: 15px 0 0 0;}
+	.post_more a.kitbutton.small{border:1px solid #E2231A;display:inline-block;}
+	.post_more a.kitbutton.small span{background:#E2231A; margin:4px; padding: 8px 20px; color:#fff; font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:16px; line-height:20px; text-transform:uppercase; display:inline-block;}
+	.post_more a.kitbutton.small span{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+	
+	
+	
+	.pagination ul li span, 
+	.pagination ul li a{font-family: 'dinregular', Arial, Helvetica, sans-serif; width: 38px;height: 38px;line-height: 38px;margin: 0 11px 0 0;color: #959595;
+font-size: 18px;border: 0px solid #e5e5e5; 
+-o-border-radius: 0px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+-ms-border-radius: 0px;
+border-radius: 0px;
+}
+:lang(zh-CN) .pagination ul li a{font-family: 黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+
+.pagination ul li span{background-color: #f1f1f2;}
+
+.ogilvyblog.container .blog_holder article{margin:0 0 100px 0;}
+.ogilvyblog.container .blog_holder article .post_idatametamore{width:30%; display:inline-block; float:right;}
+.ogilvyblog.container .blog_holder article .post_idatametamore .post_idatainner{padding: 0px 0px 0px 50px;}
+.ogilvyblog.container .blog_holder article .post_text{width:70%; display:inline-block;}
+.ogilvyblog.container .blog_holder article .post_text .post_text_inner{padding: 0px 50px 23px 0px; border-right:2px solid #E2231A;}
+.ogilvyblog.container .blog_holder article h2{font-size:24px; line-height:28px; }
+.ogilvyblog.container .blog_holder article h2 a{color:#E2231A; font-size:24px; line-height:28px;}
+.ogilvyblog.container .blog_holder article h4{font-family: 'dinbold', Arial, Helvetica, sans-serif; color:#959595; font-size:18px; margin:0 0 30px 0;}
+:lang(zh-CN) .ogilvyblog.container .blog_holder article h4{font-family:  黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+.ogilvyblog.container .blog_holder article p{font-family: 'libre_baskervilleregular'; font-size: 14px; line-height:20px; color:#1A1A1A;}
+:lang(zh-CN) .ogilvyblog.container .blog_holder article p{font-family:  黑体,STHeiti,'libre_baskervilleregular'; }
+
+
+/*Press Single*/
+.content .kitpress.container .container_inner.default_template_holder{padding-top: 100px;}
+.single_blog_tit{display:none;}
+.kitpress.container .two_columns_75_25>.column1{width:65%}
+.kitpress.container .two_columns_75_25>.column2{width:35%; }
+.kitpress.container .two_columns_75_25>.column2 .column_inner{border-left:2px solid #E2231A; padding: 0 0 0 40px}
+.kitpress.container article .post_text .post_text_inner{padding: 0px 40px 23px 0px; }
+.kitpress.container .date{font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:21px;line-height:21px; color:#808080;}
+:lang(zh-CN) .kitpress.container .date{font-family:  黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+.kitpress.container h2{font-size:36px;line-height:42px; color:#E2231A;}
+.kitpress.container .post_info{display:none;}
+.kitpress.container  h4{font-size:21px;line-height:26px; color:#959595; font-family: 'dinbold', Arial, Helvetica, sans-serif; margin:8px 0 24px 0;}
+:lang(zh-CN) .kitpress.container  h4{font-family:  黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+
+.kitpress.container aside .widget h5{font-family: 'dinbold', Arial, Helvetica, sans-serif; color:#A7A9AB; font-size:24px; line-height:30px;}
+:lang(zh-CN) .kitpress.container aside .widget h5{font-family:  黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+.kitpress.container aside .widget a{font-family: 'dinbold', Arial, Helvetica, sans-serif;font-size:18px; line-height:26px; color:#E2231A;}
+:lang(zh-CN) .kitpress.container aside .widget a{font-family:  黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;}
+.kitpress.container aside{padding:20px 0 0px 0;}
+
+.kitpress.container .wpp-list .wpp-date{font-family: 'dinregular', Arial, Helvetica, sans-serif; color:#959595;font-size:18px; line-height:26px;}
+:lang(zh-CN) .wpp-list .wpp-date{font-family:  黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+.kitpress.container figure{ -webkit-margin-before: 0;-webkit-margin-after: 0;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
+.kitpress.container  .wpb_single_image .vc_figure-caption{text-align:left; font-family: 'libre_baskervilleregular'; font-size: 14px; line-height:20px;color: #959595;}
+:lang(zh-CN) .kitpress.container  .wpb_single_image .vc_figure-caption{font-family:  黑体,STHeiti,'libre_baskervilleregular'; }
+
+.kitpress.container  blockquote p{color: #959595 !important; font-family: 'dinregular', Arial, Helvetica, sans-serif; color:#959595;font-size:24px; line-height:30px;  text-align:center;}
+:lang(zh-CN) .kitpress.container  blockquote p{font-family:  黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+.kitpress.container  blockquote{margin: 20px 8% 20px 8%;}
+
+.video .mejs-container .mejs-controls .mejs-button.mejs-fullscreen-button{background:url(images/fullscreen.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/fullscreen.png*/ 50% 50% no-repeat !important; float:right;}
+.video-wrap .mejs-container-fullscreen video{width:100% !important; height:100% !important;}
+
+
+
+/*Culture & Vision*/
+
+.vc_row.cultureogrow h2{font-size: 40px;line-height: 48px; }
+.vc_row.cultureogrow div{font-size: 24px;line-height: 28px; }
+.vc_row.cultureogrow{background-size:auto 100% !important ; background-position:20% 100% !important;  background-repeat: no-repeat !important; }
+.cultureprice .wpb_text_column.wpb_content_element h2{color:#969696; text-transform:uppercase;}
+.cultureprice .wpb_text_column.wpb_content_element p{font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size: 24px;line-height: 28px; color:#969696;}
+:lang(zh-CN) .cultureprice .wpb_text_column.wpb_content_element p{font-family:  黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; font-size: 24px;line-height: 28px; color:#969696;}
+ 
+ 
+.cvrow.culturerow{background-size:auto 100% !important; background-position:80% 50% !important;}
+.cvrow.vsionrow{background-size:auto 100% !important; background-position:15% 50% !important;}
+.cvrow .wpb_text_column.wpb_content_element h1{font-family: 'dinbold', Arial, Helvetica, sans-serif;font-size:40px; line-height:50px; font-weight:100; color:#E2231A; margin:0 0 24px 0;}
+:lang(zh-CN) .cvrow .wpb_text_column.wpb_content_element h1{font-family:  黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;}
+.cvrow .wpb_text_column.wpb_content_element h2{color:#58585B;}
+
+.cvrow .wpb_text_column.wpb_content_element p{color:#58585B;}
+
+.uvc-heading.quote h2:before{content:""; display:inline-block; width:20px; height:40px; background:url(images/quote-open.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/quote-open.png*/ center 8px no-repeat;} 
+.uvc-heading.quote h2:after{content:""; display:inline-block; width:20px; height:40px; background:url(images/quote-close.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/quote-close.png*/ center 8px no-repeat;}
+
+/*History*/
+
+.historyintro h2{color:#B0B0B0;}
+.timeline-header h3{font-family: 'dinregular', Arial, Helvetica, sans-serif; color:#E2231A;font-size: 48px; line-height:48px; }
+:lang(zh-CN) .timeline-header h3{font-family:  黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+
+.timelinechina .timeline-wrapper .timeline-block{border: 0px solid #d0d0d0; border-radius: 0px; background:none; padding:0 0 20px 0;}
+
+.timelinechina .timeline-block .timeline-header h3, 
+.timelinechina .timeline-header-block .timeline-header h3{font-family: 'dinregular', Arial, Helvetica, sans-serif; color:#E2231A;font-size: 48px; line-height:48px; }
+:lang(zh-CN) .timelinechina .timeline-block .timeline-header h3, 
+:lang(zh-CN) .timelinechina .timeline-header-block .timeline-header h3{font-family:  黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+.timelinechina .timeline-header-block div h2{font-size: 21px; line-height:26px;}
+.timelinechina .timeline-header-block div{font-size: 16px; line-height:24px;}
+
+.timelinechina .timeline-line o{background:url(images/timeline-moment-icon.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/timeline-moment-icon.png*/ no-repeat; background-color:transparent;width: 18px;height: 18px;border-radius: 100%;position: absolute;left: -9px}
+.timelinechina .timeline-line z{background:url(images/timeline-moment-icon.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/timeline-moment-icon.png*/ no-repeat; background-color:transparent;width: 18px;height: 18px;border-radius: 100%;position: absolute;left: -9px}
+
+.timelinechina .timeline-wrapper .timeline-dot{width: 12px;
+height: 12px;
+background-color: transparent;
+background:url(images/timeline-moment-icon.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/timeline-moment-icon.png*/ no-repeat;
+background-size:12px 12px;
+border: none;
+border-radius: 500px;
+position: absolute;
+top: 32px;
+display: block;
+padding: 3px;}
+
+.timelinechina .timeline-post-left .timeline-dot{right: -26px}
+
+.timelinechina .timeline-header-block div img.alignnone.size-full{margin:5px 0 5px 0;}
+
+.timelinechina .timeline-header-block div video{width:350px !important; height:auto; margin:10px 0 10px 0;}
+.timelinechina .timeline-post-left .ult-timeline-arrow s,
+.timelinechina .timeline-post-right .ult-timeline-arrow s{ display:none;}
+
+
+/*Services*/
+.ourservicesrow .wpb_text_column h2{margin:-5px 0 50px 0; position:relative; z-index:999;}
+.ourservicesrow .wpb_text_column h2 a{font-size: 24px;line-height: 28px;color: #959595;font-weight: 100;}
+.ourservicesrow .wpb_text_column h2 a:hover{text-decoration:none; color: #e2231a;}
+
+.eg-services-skin-wrapper .eg-services-skin-element-2,
+.eg-services-skin-wrapper .eg-services-skin-element-0{font-family: 'dinbold', Arial, Helvetica, sans-serif;}
+:lang(zh-CN) .eg-services-skin-wrapper .eg-services-skin-element-2,
+:lang(zh-CN) .eg-services-skin-wrapper .eg-services-skin-element-0{font-family:  黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif;}
+.eg-services-skin-wrapper .eg-services-skin-element-0:hover{text-decoration:none;}
+
+
+/*Services site*/
+.servicesbox .vc_single_image-wrapper img{max-width:180px !important; height:auto !important;}
+.servicesintro h2{color:#404041; padding:20px 0 20px 0; font-size:36px; line-height:42px;}
+.servicestxtpage h4{font-family: 'dinbold', Arial, Helvetica, sans-serif;font-size:21px; line-height:26px; color:#B0B1B1; }
+:lang(zh-CN) .servicestxtpage h4{font-family: 'dinbold', Arial, Helvetica, sans-serif; }
+.servicestxtpage p,
+.servicestxtpage li{color:#4D4D4E;}
+
+
+
+/*Contact us*/
+#allmap {height: 700px;width:100%;overflow: hidden; font-family:"微软雅黑";}
+	#result {width:100%;font-size:12px; font-family:"微软雅黑";}
+	
+	.addressbar{border-top:1px solid #E2231A;}
+	.addressbar:last-child{border-bottom:1px solid #E2231A;}
+	.addressbar .more_facts_button{padding: 10px 0 10px 15px;}
+	.addressbar .more_facts_button_text{font-family: 'dinbold', Arial, Helvetica, sans-serif; color:#B0B1B1; font-size:24px; line-height:30px;}
+	:lang(zh-CN) .addressbar .more_facts_button_text{font-family:  黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+	.addressbar .more_facts_holder.more_fact_opened .more_facts_button_text{color:#FFF; }
+	.addressbar .more_facts_button_arrow{display:block; width:26px; height:26px; position:absolute; top:14px; right:15px;}
+.addressbar .fa-angle-down:before{content:'\f0d7'; color:#B0B1B1; font-size:26px; line-height:26px;}
+.addressbar .more_facts_holder.more_fact_opened .fa-angle-down:before{color:#FFF; }
+
+.addressbar .more_facts_inner{padding: 20px 0px 0 0;}
+.addressbar .more_facts_outer .wpb_wrapper{padding:0 0 0px 5px;}
+.addressbar .more_facts_outer .wpb_wrapper p{font-family: 'libre_baskervilleregular'; font-size: 16px; line-height:26px; color:#fff; padding:0 0 15px 0px;}
+:lang(zh-CN) .addressbar .more_facts_outer .wpb_wrapper p{font-family:  黑体,STHeiti,'libre_baskervilleregular'; font-size: 16px; line-height:26px; color:#fff; padding:0 0 15px 0px;}
+.addressbar .more_facts_outer .wpb_wrapper p a{color:#fff;}
+
+.addressbar .more_facts_holder.more_fact_opened{background:#E2231A;}
+.addressmapbtn{text-align:center;}
+.addressmapbtn .address-btn-text{color:#E2231A; font-family: 'dinregular', Arial, Helvetica, sans-serif; font-size:15px; line-height:17px; text-transform:uppercase; padding: 5px 15px !important; display:inline-block; background:#fff;}
+:lang(zh-CN) .addressmapbtn .address-btn-text{color:#E2231A; font-family:  黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; }
+.addressmapbtn button:hover{cursor:pointer;}
+.addressmapbtn button{box-sizing: border-box;  box-shadow: none; border: 0; background:#E2231A; margin:10px 0 0 0;}
+
+
+/*Press releases*/
+.single.single-post .single_tags{display:none;}
+.single.single-post .post_content_holder ul{list-style-position:outside; padding:0 0 0 20px;}
+.single.single-post .post_content_holder li{}
+.single.single-post .post_content_holder img.vc_single_image-img.attachment-full{width:100% !important;}
+.single.single-post .post_content_holder .post_image.videoboxkit{margin:10px 0 20px 0;}
+
+.single.single-post .post_content_holder ul.slides{margin: 0;padding: 0;list-style: none}
+.single.single-post .flexslider{margin: 0 0 32px;}
+
+.single.single-post .content .kitpress.container{padding: 0 0 50px 0;}
+
+/*Life at Ogilvy*/
+.lifeheaderbox h1{font-family:  黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; font-size:90px; line-height:110px; font-weight:600; color:#fff; margin:20px 0 20px 0;}
+.lifeheaderbox h2,
+.lifeheaderbox h2 a{color:#fff; font-family: 'dinbold', Arial, Helvetica, sans-serif; text-transform:uppercase;}
+:lang(zh-CN) .lifeheaderbox h2 a{color:#fff; font-family:  黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; }
+.lifeheaderbox h2 a:hover{text-decoration:none;}
+.lifesliders .flexslider{margin: 0 0 0px;}
+.lifesliders p{margin:0; padding:0;}
+.lifesliders video{padding:0px 0px 0px 0px; width:calc(100% - 55px) !important; height:auto; position:absolute; top:0px; background:#000; margin:0px 0px 0 0px; }
+.lifesliders video:after{display:block;background: #ff0000 url(images/video.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/video.png*/ 50% 50% no-repeat;
+height: 300px;
+width: 300px; position:absolute; z-index:9999; top:0; left:0;}
+
+.pp_pic_holder .ppt{color:#fff; font-family: 'dinbold', Arial, Helvetica, sans-serif; font-size:24px; line-height:30px;}
+:lang(zh-CN) .pp_pic_holder .ppt{color:#fff; font-family:  黑体,STHeiti,'dinbold', Arial, Helvetica, sans-serif; font-size:24px; line-height:30px;}
+.pp_pic_holder .pp_content a.pp_previous:after,
+.pp_pic_holder .pp_content a.pp_next:after{border: 0px solid #fff;}
+div.pp_default.pp_pic_holder .pp_nav .currentTextHolder{color:#fff; font-family: 'dinregular', Arial, Helvetica, sans-serif;}
+:lang(zh-CN) div.pp_default.pp_pic_holder .pp_nav .currentTextHolder{color:#fff; font-family:  黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif;}
+
+/*Search*/
+.search.search-results .blog_holder article{margin: 0 0 0px 0;}
+.search.search-results div.blog_holder.blog_large_image{margin:-20px 0 0 0;}
+.search.search-results article .post_image{width:100%; text-align:left}
+.search.search-results article .post_image img{max-height:350px; max-width:350px; margin:0 0 0 0;}
+.search.search-results .post_text_inner h2{font-size: 24px; line-height: 28px; margin:0 0 10px 0;}
+.search.search-results .post_text_inner h2 a{color: #E2231A; font-size: 24px; line-height: 24px; }
+.search.search-results .post_text_inner .date{display:none;}
+.search.search-results .post_info{display:none;}
+.search.search-results .blog_holder article .post_text .post_text_inner{padding: 23px 0px 35px 0px;}
+
+.search.search-results .blog_holder article .post_more{display:inline-block; border: 1px solid #E2231A; clear:both; margin:10px 100% 0 0;}
+.search.search-results .blog_holder article .post_more a{background: #E2231A;margin: 4px;padding: 4px 15px;color: #fff;font-family: 'dinregular', Arial, Helvetica, sans-serif;font-size: 13px;line-height: 15px;text-transform: uppercase;display: inline-block; border:none; height:auto;}
+:lang(zh-CN) .search.search-results .blog_holder article .post_more a{font-family:  黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif;}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+	
+	.header_bottom{padding: 0 10px;}
+	nav.main_menu>ul>li>a{padding: 26px 15px 4px 15px;}
+header.sticky nav.main_menu>ul>li>a{padding: 16px 15px 4px 15px;}
+.mobile_menu_button{margin: 0 45px 0 25px}
+
+	
+	
+	/*Homepage*/
+.homepage_news1bl .wpb_text_column.wpb_content_element p,
+.homepage_news1bl .wpb_text_column.wpb_content_element{color:#fff; font-size: 18px;line-height: 22px;}
+.homepage_news1bl .wpb_text_column.wpb_content_element a{font-size: 18px; line-height: 22px;   }
+.homepage_news1bl .wpb_text_column.wpb_content_element h4 span{ font-size: 18px;line-height: 22px; }
+
+
+.homepage_news2 .titlebox,
+.homepage_news2 .titlebox p{font-size: 20px; line-height:25px;}
+:lang(zh-CN) .homepage_news2 .titlebox,
+:lang(zh-CN) .homepage_news2 .titlebox p{font-size: 28px; line-height:32px;}
+
+.homepage_news2 .metabox p{font-size: 20px; line-height:25px; }
+.homepage_news2 .icondiy{font-size: 30px; line-height: 35px; }
+
+.homepage_wechatnews h2{font-size: 28px;line-height: 32px;}
+.homepage_wechatnews h2 a{font-size: 28px;line-height: 32px; }
+.homepage_wechatnews h4{font-size: 18px;line-height: 22px;}
+
+
+.homepage_twitternews h2{font-size: 18px; line-height:22px; }
+.homepage_twitternews h4{font-size: 18px;line-height: 22px;}
+
+
+
+:lang(zh-CN) .homepage_news1bl .wpb_text_column.wpb_content_element p,
+:lang(zh-CN) .homepage_news1bl .wpb_text_column.wpb_content_element{font-size: 20px; line-height:25px; }
+:lang(zh-CN) .homepage_news1bl .wpb_text_column.wpb_content_element a{font-size: 22px; line-height: 25px; margin:65px 0 0px 0; }
+:lang(zh-CN) .homepage_news1bl .wpb_text_column.wpb_content_element h4 span{color:#fff; font-size: 20px;line-height: 25px; }
+:lang(zh-CN) .homepage_news1bl .wpb_text_column.wpb_content_element h4{margin:10px 0 10px 0;}
+
+:lang(zh-CN) .homepage_news1bl .slick-next{color:#fff; top:25px; right:-5px;} 
+:lang(zh-CN) .homepage_news1bl .slick-prev{color:#fff; top:25px; left:-5px;} 
+
+
+
+
+
+
+	
+	/*Culture*/
+.cultureogrow .vc_col-sm-6:last-child{padding-right: 2% !important;}
+
+.cvrow.culturerow{background-size:auto 100% !important; background-position:90% 50% !important;}
+.cvrow.vsionrow{background-size:auto 100% !important; background-position:2% 50% !important;}
+
+	
+		/*Footer*/
+		
+	.footer_top .widget.widget_nav_menu li{width:100%;}
+	.footer_top .column1 h5{padding: 0 150px 5px 0px;}
+	
+	.footer_top .column1 .column_inner{padding: 0 20px 0 0;}
+	
+	
+	/*Company*/
+	#companydetail .companydetailcontainer .uvc-heading{width:100%; margin:0 auto 0 auto;}
+	#companydetail .companydetailcontainer .full_section_inner{width:65%;}
+
+	
+		/*Company detail*/
+		.modal-leadership-img .ult_modal.ult-medium{width: 90%}
+	.modal-leadership-img .ult_modal-body img{width: 280px !important; height:280px !important;}
+	
+	/*Contact*/
+	#allmap{height: 600px;}
+	
+		/*Cases detail*/
+	.single-portfolio_page footer .container_inner{width:950px;}
+	
+		/*Footer*/
+footer_top .two_columns_50_50>.column1{width:65%; }
+footer_top .two_columns_50_50>.column2{width:35%;}
+
+.eg-ajax-target-container-wrapper div.eg-ajaxanimwrapper{width:90%; margin:0 5% 0 5%; }
+	
+	
+}
+
+
+
+
+@media only screen and (max-width: 1000px){
+	/*Menu*/
+	header.light:not(.sticky) #lang_sel>ul>li>a{color: #010101 !important; background: url(images/nav-arrow-down-black.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/nav-arrow-down-black.png*/ transparent right no-repeat;}
+	.home .widget_icl_lang_sel_widget #lang_sel a{color:#010101; background: url(images/nav-arrow-down-black.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/nav-arrow-down-black.png*/ transparent right no-repeat;}
+	.mobile_menu_button span{width: 26px; height: 26px; font-size: 26px; color:#010101;}
+	.side_menu_button_wrapper .search_button .fa-search:before{font-size: 26px;width: 26px;height: 26px;}
+	nav.mobile_menu ul li a,
+	nav.mobile_menu ul li h3{font-family: 'dinregular', Arial, Helvetica, sans-serif; font-weight:400; height:auto;  color:#010101; font-size:18px; line-height:22px; }
+	:lang(zh-CN) nav.mobile_menu ul li a,
+	:lang(zh-CN) nav.mobile_menu ul li h3{font-family:  黑体,STHeiti,'dinregular', Arial, Helvetica, sans-serif; font-weight:400; height:auto;  color:#010101; font-size:18px; line-height:22px; }
+	nav.mobile_menu ul li a:hover{color:#010101; text-decoration:none;}
+	nav.mobile_menu ul li a span{line-height: 30px; }
+	nav.mobile_menu ul li.current_page_item>a span,
+	nav.mobile_menu ul li.active>a span{border-bottom:3px solid #C82026; color:#010101;}
+	nav.mobile_menu ul>li.has_sub>span.mobile_arrow, 
+	nav.mobile_menu ul>li.has_sub>span.mobile_arrow{font-size:30px; line-height:45px; color:#010101;}
+	#menu-top_menu-1{margin: 0px auto 0px auto; padding-bottom:30px;}
+	
+/*Homepage*/
+.homepageani .hp_title1 p,
+.homepageani .hp_title2 p{font-size: 80px;}
+
+.homepagearrow p img{width:80px !important; height:80px !important;}
+
+	.homepage_news1 .titlebox, 
+	.homepage_news1 .titlebox p{font-size: 24px; line-height: 28px;}
+	.homepage_news1 .subtitlebox, 
+	.homepage_news1 .subtitlebox p{font-size: 16px; line-height: 21px;}
+	
+	.homepage_news2 .titlebox, 
+	.homepage_news2 .titlebox p{font-size: 16px; line-height: 21px;}
+	.homepage_news2 .icondiy{font-size:28px; line-height:28px;}
+	.homepage_news2 .metabox p{font-size: 16px; line-height: 21px;}
+	
+	.homepage_news1bl .wpb_text_column.wpb_content_element h4{margin:0px 0 0px 0;}
+	.homepage_news1bl .slick-next{color:#fff; top:15px; right:-5px;} 
+.homepage_news1bl .slick-prev{color:#fff; top:15px; left:-5px;} 
+	
+	.homepage_news1bl .wpb_text_column.wpb_content_element a{margin:28px 0 0px 0; }
+	
+	
+	
+
+
+
+
+/*Footer*/
+
+.footer_top .column1 .column_inner{padding: 0 10px 0 60px;}
+.footer_bottom_holder .footer_bottom ul.menu li a{font-size:15px;}
+
+/*Careers*/
+.careerorow h2{font-size:36px; line-height:44px;}
+.careerorow div{font-size:18px; line-height:24px;}
+.careercontactrow .vc_col-sm-4{width:100%; border-right:none !important; border-left:none !important;}
+
+
+
+	/*Contact*/
+	
+	/*Company*/
+		#companydetail .companydetailcontainer .uvc-heading{width:100%; margin:0 auto 0 auto;}
+	#companydetail .companydetailcontainer .full_section_inner{width:75%;}
+	
+			/*Cases detail*/
+	.single-portfolio_page footer .container_inner{width:768px;}
+	
+
+	
+
+	
+}
+
+@media only screen and (max-width: 880px){
+	
+	.homepage_twitternews span.qode_icon_shortcode{margin: 14px auto 10px auto !important;}
+	/*Case detail*/
+	
+	
+	/*Company*/
+		#companydetail .companydetailcontainer .uvc-heading{width:100%; margin:0 auto 0 auto;}
+	#companydetail .companydetailcontainer .full_section_inner{width:80%;}
+
+	/*Culture*/
+.cultureogrow .vc_col-sm-6:last-child{padding-right: 0% !important;}
+.cvrow.culturerow{background-size:auto 80% !important; background-position:130% 50% !important;}
+.cvrow.vsionrow{background-size:auto 80% !important; background-position:-30% 50% !important;}
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+	p{font-size: 16px;line-height: 26px;}
+	.side_menu_button_wrapper .side_menu_button{height: 80px !important;}
+	header .q_logo img.mobile{margin: 25px auto 0 auto}
+	.side_menu_button_wrapper .side_menu_button{padding: 36px 0 0 0px;}
+	.side_menu_button_wrapper{width: 60px;}
+	
+	
+	/*Homepage*/
+	
+	div.ult-content-box-container.homepageani_cont .ult-content-box{min-height:400px !important; height:400px;}
+	
+.homepageani .hp_title1 p,
+.homepageani .hp_title2 p{font-size: 70px;}
+.homepagearrow p img{width:70px !important; height:70px !important;}
+	
+
+	
+	.homepage-case-slider div.ls-l h6{display:none;}
+	.homepage-case-slider div.ls-l a{margin:10px 0 0 0;}
+	.homepage-case-slider div.ls-l a span{padding: 6px 15px 6px 15px; margin: 4px; font-size: 16px; line-height: 21px;}
+	
+	a.buttonoutliner.ubtn-link.redbutton{ padding: 0px 0px}
+	a.buttonoutliner.ubtn-link.whitebutton{ padding: 0px 0px}
+	a.buttonoutliner.ubtn-link.blackbutton{padding: 0px 0px}
+	
+	/*Homepage*/
+	.homepage_services .contbox .ult-content-box .vc_row .full_section_inner .wpb_wrapper{width:100%;}
+	
+	.homepage_news1 .titlebox, 
+	.homepage_news1 .titlebox p{text-align:center;}
+	.homepage_news1 .subtitlebox, 
+	.homepage_news1 .subtitlebox p{text-align:center;}
+	
+	.homepage_services .contbox .titlebox, 
+.homepage_services .contbox .titlebox p{font-size: 90px;line-height: 95px;}
+
+:lang(zh-CN) .homepage_services .contbox .titlebox, 
+:lang(zh-CN) .homepage_services .contbox .titlebox p{font-size: 40px;line-height: 50px;}
+
+
+
+	
+	/*Footer*/
+	.footer_top .two_columns_50_50>.column1{}
+	.footer_top .column1 .column_inner{padding: 0 10px 0 0px;}
+	.footer_top .column1 h5{padding: 0 50px 5px 0px;}
+	.footer_top .column2 h5{padding: 0 30px 5px 0px;}
+	.footer_bottom_holder .footer_bottom_column{width:100%;}
+	.footer_bottom_holder .menu-footer-menu-container,
+	.footer_bottom_holder  .menu-footer-menu-chinese-container{text-align:center;}
+	.footer_bottom_holder .footer_bottom ul.menu{display:inline-block; margin:0 auto 0 auto;}
+	.footer_bottom_holder .footer_bottom ul.menu li{width:auto !important;}
+	.footer_bottom_columns.two_columns_50_50 .column2 .footer_bottom{text-align:center;}
+	.footer_bottom_holder .column2  .footer_bottom .textwidget{display:inline-block; margin:0 auto 0 auto;}
+	
+	/*Careers*/
+	
+
+/*News*/
+
+.post_more a.kitbutton.small span{padding: 6px 10px;font-size: 15px;line-height: 20px;}
+.post_idatainner .date{font-size: 32px;line-height: 32px;}
+
+.ogilvyblog.container .blog_holder article .post_text{width:75%;}
+.ogilvyblog.container .blog_holder article .post_idatametamore{width:25%;}
+.ogilvyblog.container .blog_holder article .post_text .post_text_inner{padding: 0px 25px 23px 0px;}
+.ogilvyblog.container .blog_holder article .post_idatametamore .post_idatainner{padding: 0px 0px 0px 25px;} 
+
+
+/*News single*/
+
+.kitpress.container .two_columns_75_25>.column1{width:100%;}
+.two_columns_75_25>.column1>.column_inner{padding: 0 0px 0 0;}
+.kitpress.container article .post_text .post_text_inner{padding: 0px 0px 23px 0px;}
+.kitpress.container .two_columns_75_25>.column2{width:100%;}
+.kitpress.container .two_columns_75_25>.column2 .column_inner{border-left: 0px solid #E2231A;padding: 30px 0 0px 0px}
+.content .kitpress.container .container_inner.default_template_holder{padding-top:0;}
+	
+	/*Leadership*/
+	
+	#leadershipgrid li.filterall.filter-ogilvy.eg-leadershipskin-wrapper.tp-esg-item.itemtoshow.isvisiblenow.esg-hovered{ }
+	
+		/*Services*/
+	.servicesbox  .vc_col-sm-8{width:100%}
+	.servicesbox  .vc_col-sm-4{width:100%; margin:30px 0 0 0;}
+	
+	
+	/*Company*/
+		#companydetail .companydetailcontainer .uvc-heading{width:100%; margin:0 auto 0 auto;}
+	#companydetail .companydetailcontainer .full_section_inner{width:85%;}
+	
+	
+	/*Company page*/
+.relatedservicesrow .vc_col-sm-12,
+.addresscompanyrow .vc_col-sm-12,
+.companyintrorow .vc_col-sm-12,
+.companyintrocont .vc_col-sm-12{padding-right: 5% !important; padding-left: 5% !important;}
+a.serviceslink.ubtn-link{margin: 0 0px 0px -22px !important; display:inline-block;  float:left;}
+a.serviceslink.ubtn-link span.ubtn-data.ubtn-text{}
+
+.leadershipcompbox .vc_col-sm-3{width:50%; display:inline-block; vertical-align:top;}
+
+
+/*Cases detail*/
+.single-portfolio_page .vc_col-sm-3.speccase{width:100%; text-align:center; height:auto !important; padding:20px 10px 0px 10px;}
+.single-portfolio_page .vc_col-sm-9.speccaseslider{width:100%;}
+.single-portfolio_page .flex-viewport{margin:0; width:100%;}
+.single-portfolio_page .flexslider .flex-direction-nav .flex-prev{left:35px;}
+.single-portfolio_page .flexslider .flex-direction-nav .flex-next{right:35px;}
+
+    .single-portfolio_page .column2{margin:-50px 20px 0 20px;}
+	.single-portfolio_page footer .container_inner{width:600px;}
+	.single-portfolio_page .footer_top .two_columns_50_50>.column1{width:66%;}
+	.single-portfolio_page .footer_top .two_columns_50_50>.column2{margin:0;width:34%;}
+	.single-portfolio_page .portdescription .vc_col-sm-6:first-child{padding-left:15px !important; padding-right:15px !important;}
+	.single-portfolio_page .portdescription .vc_col-sm-6:last-child{clear:both; padding:50px 15px 0 15px !important;}
+	
+	.mejs-container .mejs-controls{width:90%; left:5%;}
+	
+	.vc_row.wpb_row.casequote{margin:50px 0 0 0 !important; padding:50px 15px 20px 15px !important;}
+.vc_row.wpb_row.casequote .vc_col-sm-4 .wpb_content_element{text-align:center !important;}
+.vc_row.wpb_row.casequote .uvc-heading h3{text-align:center;}
+.vc_row.wpb_row.casequote .uvc-sub-heading{text-align:center;}
+.vc_row.wpb_row.casequote .casequotetxt{margin:10px 0 20px 0; padding:0px;}
+.vc_row.wpb_row.casequote .casequotetxt .wpb_wrapper{margin: 0 0px 0 0px;
+padding: 10px 0px 10px 0px;}
+.vc_row.wpb_row.casequote .casequotetxt blockquote{}
+.vc_row.wpb_row.casequote .casequotetxt .wpb_wrapper h5{padding: 40px 10px 40px 10px;}
+.vc_row.wpb_row.casequote .casequotetxt:before{background:#efefee url(images/quotecloud_mob.png)/*tpa=http://www.ogilvy.com.cn/wp-content/themes/bridge-child/images/quotecloud_mob.png*/ top center no-repeat; width:100%; height:20px;}
+.vc_row.wpb_row.casequote .wpb_single_image .vc_single_image-wrapper{}
+.vc_row.wpb_row.casequote .wpb_single_image img{}
+			
+	
+}
+
+@media only screen and (max-width: 700px){
+	p{
+	font-size: 15px;
+line-height: 24px;
+	}
+	
+	
+	/*Homepage*/
+.homepageani .hp_title1 p,
+.homepageani .hp_title2 p{font-size: 65px; line-height:75px; margin:0;}
+.homepagearrow p img{width:65px !important; height:65px !important;}
+
+
+/*News*/
+.kitpress.container .container_inner{width:92%; margin:0 4% 0 4%;}
+.ogilvyblog.container .blog_holder article .post_idatametamore{display:none;}
+.ogilvyblog.container .blog_holder article .post_text .post_text_inner{border-right: 0px solid #E2231A; padding: 0px 0px 0px 0px;}
+.ogilvyblog.container .blog_holder article .post_text{width:100%; }
+.ogilvyblog.container .blog_holder article .post_text p{display:none;}
+.blog_holder article .datemob{display:block;}
+.ogilvyblog.container .blog_holder article{margin: 0 0 0px 0;}
+.ogilvyblog.container .blog_holder article:first-child{margin:20px 0 0 0;}
+.ogilvyblog.container .blog_holder article:last-child{margin:0px 0 40px 0;}
+
+/*News single*/
+.blog_holder.blog_single article h2{font-size: 30px;line-height: 36px;}
+
+/*History*/
+.timelinechina .timeline-header-block{padding-left:0px !important; margin:10px 0 0 0;}
+.timelinechina .timeline-header-block .timeline-header{text-align:center;}
+.timelinechina .timeline-block .timeline-header h3, 
+.timelinechina .timeline-header-block .timeline-header h3{background:#fff; display:inline-block; margin:0 auto 0 auto; padding:0px 20px 0px 20px; border:1px solid #E2231A; font-size: 38px;line-height: 38px;}
+.timeline-block .timeline-header-block .timeline-header div{background:rgba(255,255,255,0.8); margin:10px 0 0 0; padding:10px;}
+.timelinechina .timeline-post-left .timeline-dot{display:none; position:relative;}
+
+
+/*Contact*/
+
+	.addressbar .more_facts_button_arrow{right: 45px;}
+	#allmap{width:90%; margin:0 auto 0 auto;}
+	
+	
+	
+	/*Company*/
+
+	#companydetail .companydetailcontainer .uvc-heading{width:95%; margin:0 auto 0 auto;}
+	#companydetail .companydetailcontainer .full_section_inner .wpb_wrapper{margin:40px 0 0 0;}
+	/*Company detail*/
+	
+	.addresscompanyrow .wpb_text_column.wpb_content_element{width: 100%; display:block; border-left:0px solid #E2231A; padding:0 0px 20px 0px;  }
+.addresscompanyrow .wpb_text_column.wpb_content_element:first-child{border-left:0px solid #E2231A; padding:0 0px 20px 0px;}
+.addresscompanyrow .wpb_text_column.wpb_content_element:last-child{border-left:0px solid #E2231A; padding:0 0px 0px 0px;}
+
+/*Leadership*/
+.leadershipdetailtxt .wpb_content_element.wpb_single_image{text-align:center; margin-top:0px;} 
+.leadershipdetailtxt .wpb_content_element.wpb_single_image img{width:200px; height:auto; margin:0 auto 30px auto;}
+
+/*Case detail*/
+
+
+
+/*Culture & Vision*/
+	
+.cvrow.culturerow{background-size:auto 90% !important; background-position:50 50% !important;}
+.cvrow.vsionrow{background-size:auto 90% !important; background-position:50% 50% !important;}
+.vc_row.cultureogrow .ult-content-box-container.middlecenterblock.h500 .ult-content-box{display: block;
+vertical-align: top;
+height: 500px;}
+.vc_row.cultureogrow .ult-content-box-container.middlecenterblock.h500{display:block; vertical-align: top;}
+
+.wpb_row.section.vc_row-fluid.cultureprice .vc_col-sm-6{padding:0 2% 0 2% !important;}	
+
+/*Career*/
+		.middlecenterblock.h500.careerwechat{padding:0 30px 0 30px;}
+		
+		/*Footer*/
+		.footer_top .two_columns_50_50>.column2 img{display:block; float:none; margin:0px 0 0 0;}
+		.footer_top .two_columns_50_50>.column2 .q_font_awsome_icon{margin: 20px 0px 20px 0px !important;}
+	
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+	/*Homepage*/
+.homepageani .hp_title1 p,
+.homepageani .hp_title2 p{font-size: 50px;line-height:58px; }
+.homepagearrow p img{width:50px !important; height:50px !important;}
+
+.homepage_services .contbox .titlebox, 
+.homepage_services .contbox .titlebox p{font-size: 60px;line-height: 68px;}
+
+:lang(zh-CN) .homepage_services .contbox .titlebox, 
+:lang(zh-CN) .homepage_services .contbox .titlebox p{font-size: 30px;line-height: 38px;}
+
+.homepage_news1bl .slick-next{color:#fff; top:20px; right:-5px;} 
+.homepage_news1bl .slick-prev{color:#fff; top:20px; left:-5px;} 
+
+.homepage_news1bl .wpb_text_column.wpb_content_element a{margin:45px 0 0px 0; }
+
+/*Company*/
+	
+
+	/*Companypage*/
+.leadershipcompbox .vc_col-sm-3{width:100%; display:block; vertical-align:top;}
+.leadershipcompbox .ult-modal-input-wrapper img.ult-modal-img{width:100%; display:block;}
+
+		.modal-leadership-img .ult_modal.ult-medium{width: 80%}
+	.modal-leadership-img .ult_modal-body img{width: 200px !important; height:200px !important;}
+	
+	/*Cases detail*/
+	.single-portfolio_page footer .container_inner{width:420px;}
+	
+	/*History*/
+	.historyintro h2{margin:20px 0 0 0;}
+	
+	
+	
+}
+
+@media only screen and (max-width: 480px){
+	/*Cases detail*/
+	.single-portfolio_page footer .container_inner{width:300px;}
+}
+
+
+@media only screen and (max-width: 450px){
+		/*Homepage*/
+.homepageani .hp_title1 p,
+.homepageani .hp_title2 p{font-size: 50px; line-height:58px;}
+:lang(zh-CN) .homepageani .hp_title1 p,
+:lang(zh-CN) .homepageani .hp_title2 p{font-size: 40px; line-height:48px;}
+.homepagearrow p img{width:40px !important; height:40px !important;}
+
+	.homepage-case-slider div.ls-l{width:250px !important; height:auto !important; text-align:right !important;}
+	.homepage-case-slider div.ls-l .sliderouterbox{text-align:right;}
+	.homepage-case-slider div.ls-l .sliderinnerbox{width:230px !important;  padding:0 0 0 55px; }
+	.homepage-case-slider div.ls-l a{display:none;}
+
+
+	/*Footer*/
+.footer_top .two_columns_50_50>.column1{width:100%; text-align: center;}
+.footer_top .column1 h5{padding: 0 10% 5px 10%; text-align: center;}
+.footer_top .column2 h5{padding: 0 10% 5px 10%;text-align: center;}
+.footer_top .two_columns_50_50>.column2{width:100%;text-align: center;}
+.footer_top .two_columns_50_50>.column2 img{display:block; float:none; margin:0px auto 0 auto !important;}
+
+	/*Contact*/
+	#allmap{height:550px;}
+	
+	/*Companypage*/
+	.modal-leadership-img .ult_modal.ult-medium{width: 80%}
+	.modal-leadership-img .ult_modal-body img{width: 100% !important; height:auto !important; margin:0 auto 20px auto; text-align:center;}
+	.modal-leadership-img .ult_modal-body{padding: 25px 25px 25px 25px;}
+	
+	/*Culture & Vision*/
+.vc_row.cultureogrow .ult-content-box-container.middlecenterblock.h500 .ult-content-box{display: block;
+vertical-align: top;
+height: 500px;}
+.vc_row.cultureogrow div.ult-content-box{padding: 2% 4% 5% 4%;}
+.vc_row.cultureogrow .ult-content-box-container.middlecenterblock.h500 h2{ margin:-30px 0 20px 0;}
+.vc_row.cultureogrow .ult-content-box-container.middlecenterblock.h500{display:block; vertical-align: top;}
+.vc_row.cultureogrow{ padding:50px 10px 250px 10px;}
+.vc_row.cvrow .wpb_text_column.wpb_content_element .wpb_wrapper{padding:15px;}
+
+	
+	
+}
+
+@media only screen and (max-width: 350px){
+	/*Cases detail*/
+	.single-portfolio_page footer .container_inner{width:95%;}
+}
+
+
+@media only screen and (max-width: 300px){
+		/*Homepage*/
+		.homepage-case-slider div.ls-l{width:250px !important;}
+		.homepage-case-slider div.ls-l sliderouterbox{padding:0 75px 0 75px !important; }
+	.homepage-case-slider div.ls-l .sliderinnerbox{width:230px !important;  }
+	
+	
+}
+
+
+
+
+	
+
+	
+	
+	
+	
+
+
+
+
